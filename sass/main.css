@@ -1,0 +1,79 @@
+.top_bar {
+  background-color: orange; }
+
+.social_icon {
+  margin: 5px 5px 3px 0px;
+  color: white; }
+  .social_icon i {
+    font-size: 17px; }
+
+.image {
+  width: 170px;
+  margin: 3px; }
+
+.my_menu {
+  margin: 8px 0px; }
+  .my_menu .mynav {
+    margin-bottom: 0px; }
+    .my_menu .mynav #mynavbar ul .active a {
+      background-color: orange;
+      color: white; }
+    .my_menu .mynav #mynavbar li a {
+      color: #3c3030; }
+    .my_menu .mynav #mynavbar li a:hover {
+      background-color: orange;
+      color: white; }
+
+.myslider .item img {
+  width: 100%;
+  height: 540px !important; }
+
+.section-1 {
+  padding: 10px 0; }
+
+.our_course {
+  background-color: #286090; }
+  .our_course ul {
+    text-align: center; }
+    .our_course ul li {
+      width: 20%;
+      display: inline-block; }
+      .our_course ul li a .myimage {
+        width: 95%;
+        margin: 5px; }
+
+.mytext h1 {
+  color: white; }
+
+.team .thumbnail .caption .contact_btn {
+  padding: 6px 5px;
+  font-size: 12px; }
+
+.f_tor {
+  background-color: #333333;
+  color: white; }
+  .f_tor p {
+    margin: 15px 0px 5px; }
+
+.list-unstyled li a {
+  color: white; }
+
+.f_tor_contact p a {
+  color: white; }
+
+@media (max-width: 768px) and (min-width: 435px) {
+  .myslider .item img {
+    width: 100%;
+    height: 330px !important; } }
+@media (max-width: 435px) and (min-width: 320px) {
+  .myslider .item img {
+    width: 100%;
+    height: 270px !important; }
+
+  .mytext h1 {
+    font-size: 20px; }
+
+  .f_tor .logopadho_dosto {
+    display: none !important; } }
+
+/*# sourceMappingURL=main.css.map */

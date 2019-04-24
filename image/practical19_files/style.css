@@ -1,0 +1,35 @@
+.top_bar{
+    background-color: orange;
+}
+.social_icon{
+    margin: 5px 5px 3px 0px;
+    color: white;
+}
+.social_icon i{
+    font-size: 17px;
+}
+.image {
+    width: 35%;
+    margin-top: 25px;
+}
+.my_menu{
+    margin-top: 30px;
+}
+.my_menu .navbar-default{
+    background-color: white;
+    border: none;
+}
+.my_menu .navbar .navbar-nav .active a ,.my_menu .navbar .navbar-nav li a:hover{
+    background-color: orange;
+    color: white;
+}
+.myslider{
+    min-width: 100%;
+
+}
+.myimage{
+    max-width: 100%;
+}
+.section-1 {
+    padding-top: 10px;
+}
