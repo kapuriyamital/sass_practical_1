@@ -53,21 +53,25 @@
 
 .f_tor {
   background-color: #333333;
-  color: white; }
+  color: #ccc9c9; }
   .f_tor p {
     margin: 15px 0px 5px; }
-
-.list-unstyled li a {
-  color: white; }
-
-.f_tor_contact p a {
-  color: white; }
+  .f_tor .logopadho_dosto {
+    display: block; }
+  .f_tor .f_tor_contact a {
+    color: #ccc9c9; }
+  .f_tor .f_tor_contact a:hover {
+    color: #337ab7;
+    text-decoration: none; }
 
 @media screen and (max-width: 767px) {
   .menu_header .toggler_btn {
     padding: 0px 4px;
     font-size: 22px;
-    color: orange; } }
+    color: orange; }
+
+  .f_tor .logopadho_dosto {
+    display: none; } }
 @media (max-width: 768px) and (min-width: 435px) {
   .myslider .item img {
     width: 100%;
@@ -95,8 +99,21 @@
   .mytext h1 {
     font-size: 20px; }
 
-  .f_tor .logopadho_dosto {
-    display: none !important; } }
+  .team h1 {
+    font-size: 25px; }
+  .team .thumbnail .caption h3 {
+    font-size: 20px;
+    margin: 5px 0px; }
+
+  .f_tor {
+    padding-bottom: 20px; }
+    .f_tor p {
+      margin: 1px 0px; }
+    .f_tor .f_tor_contact {
+      width: 100%; }
+      .f_tor .f_tor_contact h3 {
+        font-size: 20px;
+        color: white; } }
 @media screen and (max-width: 319px) {
   .top_bar {
     display: none; } }

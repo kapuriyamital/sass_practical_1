@@ -84,32 +84,35 @@
 }
 .f_tor{
   background-color: #333333;
-  color:$color-white;
+  color:$color-footer;
   p{
     margin: 15px 0px 5px;
   }
-}
-.list-unstyled {
-  li {
+  .logopadho_dosto{
+    display: block;
+  }
+  .f_tor_contact {
     a {
-      color: $color-white;
+      color: $color-footer;
+    }
+    a:hover{
+      color: $color-blue;
+      text-decoration: none;
     }
   }
 }
-.f_tor_contact{
-  p {
-    a{
-      color: $color-white;
-    }
 
-  }
-}
 @media screen and (max-width: 767px){
   .menu_header{
     .toggler_btn{
       padding: 0px 4px;
       font-size: 22px;
       color: $bg-orange;
+    }
+  }
+  .f_tor{
+    .logopadho_dosto{
+      display: none;
     }
   }
 }
@@ -145,7 +148,6 @@
       }
     }
   }
-
   .myslider{
     .item {
       img {
@@ -159,11 +161,33 @@
       font-size: 20px;
     }
   }
-  .f_tor{
-    .logopadho_dosto{
-      display: none!important;
+  .team{
+    h1{
+      font-size: 25px;
+    }
+    .thumbnail{
+      .caption{
+        h3{
+          font-size: 20px;
+          margin: 5px 0px;
+        }
+      }
     }
   }
+  .f_tor{
+    padding-bottom: 20px;
+    p{
+      margin: 1px 0px;
+    }
+    .f_tor_contact {
+      width: 100%;
+      h3{
+        font-size: 20px;
+        color: $color-white;
+      }
+    }
+  }
+
 }
 @media screen and (max-width: 319px) {
   .top_bar {
