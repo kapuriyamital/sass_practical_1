@@ -109,6 +109,12 @@
       font-size: 22px;
       color: $bg-orange;
     }
+    .menu_bar{
+      position: absolute;
+      z-index: 2;
+      width: 100%;
+      background: white;
+    }
   }
   .f_tor{
     .logopadho_dosto{

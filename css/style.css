@@ -69,6 +69,11 @@
     padding: 0px 4px;
     font-size: 22px;
     color: orange; }
+  .menu_header .menu_bar {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    background: white; }
   .f_tor .logopadho_dosto {
     display: none; } }
 
